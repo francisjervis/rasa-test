@@ -31,3 +31,4 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
+- respond_faq
