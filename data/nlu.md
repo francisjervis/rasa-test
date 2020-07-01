@@ -121,3 +121,5 @@
 
 ## intent:faq/ask_proper_service
 - What is proper service of a Notice?
+- What does service of notice mean?
+- When is a notice properly served?
