@@ -55,24 +55,14 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent: faq/ask_channels
-- What channels of communication does rasa support?
-- what channels do you support?
-- what chat channels does rasa uses
-- channels supported by Rasa
-- which messaging channels does rasa support?
+## intent: faq/ask_deposit_use
+- What can a landlord do with my security deposit?
 
-## intent: faq/ask_languages
-- what language does rasa support?
-- which language do you support?
-- which languages supports rasa
-- can I use rasa also for another laguage?
-- languages supported
 
-## intent: faq/ask_rasax
-- I want information about rasa x
-- i want to learn more about Rasa X
-- what is rasa x?
-- Can you tell me about rasa x?
-- Tell me about rasa x
-- tell me what is rasa x
+## intent: faq/ask_deposit_wait
+- How many days do I have to wait to get my security deposit back?
+
+
+## intent: faq/ask_warranty
+- What is the “Implied Warranty of Habitability?”
+
