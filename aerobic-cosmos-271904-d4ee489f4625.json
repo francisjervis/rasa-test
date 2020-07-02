@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aerobic-cosmos-271904",
+  "private_key_id": "d4ee489f4625c8c172250ecef28e5e8c093a5eab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD2IygQbUgguWoV\njVYXkO4A488R+y6oLb+Oi00smLypQ/M4CJqL0HMmpIVLLL5G2a0sfUjahxpGIELP\nH3w2Kw9AoHRlbJsUtpuI7l8O2zapSox8i7KkvfUt/1ZLbNeTp9IOH9rAI7nNG1qI\ncVgu9q+ZZUC+dzSjo7L4oS0SYcIjP5BcEOcZkSZecp/5VeZ3iZi/gHjoIeFmiRsV\njHxoNhWgjiI3NRL1AvU7ybcqJHCQPrX4kfPjH9of9eJRMoHtD5fG9iHwTxBJNLFj\n6FbAeXPbr2zDkrt+VXmO8GM4k2jn2ZpUoijIhj9sOzL41BSltkJoOALka8OB6Tr0\n0avY7QZBAgMBAAECggEAF/+5ilB9deNeOpe7SzTwX9nWeNRa6j77rHRco/qIeqCL\neG0uVG+QqrXj4T6Nlu7mea4Finkd0LSYjwVs4QM1y4FZmAIM5OohJCrJzfMF01/X\nbtVYJ8P1wfRhf50vL9BvJL1qYM2a8iq2mxMiHAIlgPlkZK3Ozh3J94APmvk5KqJ5\nBfjd4+gYNqJ2vNXBAC9c7iq7rv9ETjMJrmLLF6YBKEbPM/D4BaXnAOZR6Tl5Z8k5\nWBKfyJn7azkPHvImgTjmqKnFlTmfaDM1qFa3GTAkHOT49Cdr+JtRZT4ig2W2eZy7\nKqpP4sH5jHivA/KN4mxmfQJ9+OLfbIf+Rp6fgnNyuQKBgQD+8Uu7iqk8UAmtSBgj\nZ3peboAWBMkYAUzDTzbj7vz6CWGUuD9Res5hlSkumOEGBQwQmQHD9jAHZWUBAPqn\nCL5Gpum/UhLvYMmcITQpzXN9ZZYXm2ehne8GrthPuUPXMTX0YL9qeXX1fO6Ng82t\nbE0sUCiGfY3jImpFWioZyu1y2wKBgQD3KILU/fXFaOyebcGTEffJW9T2496fq+60\n0rwYvHv641/ai9pvPoPf5d96uVm+8fkmpLZppY39Tp4/TM1Pf8jJz6ph22b4XyOd\n+OTBBkinqCI7jUV1DtI3j21CTyWCMjle/GZd9JudP0FKAk2Ppff+PYUSBT2IlGbj\nti5/BaCAEwKBgBMdoKIVSY8+KRuXFkhBUAmYm34LKdDk+A6E+AarOsi8v1ZZYlYH\nsUXb21SlHepHopnz/w/ke8FyNtqWajTwEORXS5uO2eCdD0DntHOV9hzm6xQmEOUr\nZGrJ3WpM5+tQw0zpnDCtnsyja3es9FUWk8rIz+EVtPfc8r70fcelUZyVAoGAL/pr\nO1F5TjMKC88ejqAkS7BJ7QtbAf/sPKnT3bFpF9DfoJsZchLeoq4K7dXhOBHc3cWH\nq4Z5w7xpN7x+9nnFzndDie9/U6OUVGwma9n+bJ1U196apxiTcjmjagXXMCjzvh6c\n+IwtUR8gW2+LAuGi/HWQyWi/Ay5bssSAziOXfoUCgYEAhDRoxUX9vRKnnZaGRrIS\n2gBRRcP3/YSQ9aBDWi0i+ztpBgDSoMQgQySNolg9kqAu/E9o4j8r+wO49LI5t0zT\n0W7sGaSWDwUl98irAQs3TwfPX8P7m8RE8dC7w5sUOFT1P1I10HB8T1Pt8iwbCaHs\nm/soSFUtk53zcc8TKMFamFI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nlp-405@aerobic-cosmos-271904.iam.gserviceaccount.com",
+  "client_id": "111002403527937782326",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nlp-405%40aerobic-cosmos-271904.iam.gserviceaccount.com"
+}

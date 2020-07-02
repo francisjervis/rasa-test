@@ -1,27 +1,37 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
+from rasa_core_sdk import Action
+from google.cloud import automl
 
+project = 'aerobic-cosmos-271904'
 
-# This is a simple example for a custom action which utters "Hello World!"
+class ActionGetClassification(Action):
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+    def name(self):
+        return 'action_get_classification'
+
+    def run(self, dispatcher, tracker, domain):
+
+        uri = tracker.get_slot('document_uri')
+
+        gcssource = automl.types.GcsSource(input_uris=uri)
+        documentconfig = automl.types.DocumentInputConfig(gcs_source=gcssource)
+        document = automl.types.Document(input_config=documentconfig)
+
+        payload = automl.types.ExamplePayload(document=document)
+
+        response = prediction_client.predict(model_full_id, payload)
+
+        for annotation_payload in response.payload:
+            print(
+                u"Predicted class name: {}".format(annotation_payload.display_name)
+            )
+            print(
+                u"Predicted class score: {}".format(
+                    annotation_payload.classification.score
+                )
+            )
+
+            message = "I'm %s sure this is a %s" %(annotation_payload.classification.score, annotation_payload.display_name)
+
+            dispatcher.utter_message(message)
+
+        return []
